@@ -36,13 +36,13 @@ class Program
             }
 
             // Display user entries in compiled journal format
-            if (selector == "2")
+            else if (selector == "2")
             {
                 myJournal.DisplayEntries();
             }
 
             // Load entries from a file.
-            if (selector == "3")
+            else if (selector == "3")
             {
                 Console.WriteLine("What is the filename?");
                 string loadFileName = Console.ReadLine();
@@ -50,11 +50,17 @@ class Program
             }
 
             // Save entries to a file.
-            if (selector == "4")
+            else if (selector == "4")
             {
                 Console.WriteLine("What is the filename?");
                 string saveFileName = Console.ReadLine();
                 myJournal.SaveToFile(saveFileName);
+            }
+
+            // In case the user enters something that is not an option...
+            else
+            {
+                Console.WriteLine("That is not an option.");
             }
 
 
