@@ -14,11 +14,7 @@ public class Scripture
         {
             Word w = new Word(_word);
             _words.Add(w);
-            // Console.Write(_word + " ");
         }
-
-
-
     }
 
     public void DisplayScripture()
@@ -33,7 +29,6 @@ public class Scripture
     {
         Random rnd = new Random();
         var shuffledList = _words.OrderBy(a => rnd.Next()).ToList();
-        // var res = shuffledList.Take(3);
         int counter = 0;
 
         foreach (Word _word in shuffledList)
@@ -58,7 +53,6 @@ public class Scripture
     {
         Random rnd = new Random();
         var shuffledList = _words.OrderBy(a => rnd.Next()).ToList();
-        // var res = shuffledList.Take(3);
         int counter = 0;
 
         foreach (Word _word in shuffledList)
@@ -96,5 +90,4 @@ public class Scripture
         }
         return option;
     }
-
 }
