@@ -11,7 +11,7 @@ public class Match
 
     public void DecideWin()
     {
-        Console.WriteLine("Which team one?");
+        Console.WriteLine("Which team won?");
         Console.WriteLine($"1) {_team1.GetTeamName()}");
         Console.WriteLine($"2) {_team2.GetTeamName()}");
 
