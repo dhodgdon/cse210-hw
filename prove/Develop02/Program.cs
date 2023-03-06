@@ -56,6 +56,11 @@ class Program
                 string saveFileName = Console.ReadLine();
                 myJournal.SaveToFile(saveFileName);
             }
+            
+            else if (selector == "5")
+            {
+                continue;
+            }
 
             // In case the user enters something that is not an option...
             else
