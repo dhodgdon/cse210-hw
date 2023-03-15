@@ -1,6 +1,6 @@
 using System.IO;
 
-// should i add a way to remove goals??
+// To exceed program requirements, I added a way to remove goals.
 class Program
 {
     static void Main(string[] args)
