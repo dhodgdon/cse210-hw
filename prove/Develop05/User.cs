@@ -2,25 +2,15 @@ using System.Linq;
 public class User
 {
     int _totalPoints;
-    string _level;
     List<Goal> _goals = new List<Goal>();
 
     public User()
     {
         _totalPoints = 0;
-        _level = "Apprentice";
-    }
-    public User(int points)
-    {
-        _totalPoints = points;
     }
     public int GetPoints()
     {
         return _totalPoints;
-    }
-    public string GetLevel()
-    {
-        return _level;
     }
     public void AddGoal(Goal goal)
     {
