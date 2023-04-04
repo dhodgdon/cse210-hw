@@ -1,0 +1,7 @@
+CardioExercise,flkjsdf,slkjdfjf,legs
+WeightedExercise,fasd;flkjf,slkdjf,legs
+WeightedExercise,squat,don't let knees go past feet,legs
+CardioExercise,lkj,lkj,lkj
+CardioExercise,j,jj,j
+CardioExercise,hand,chop,arm
+WeightedExercise,qwerty,ytrewq,all of them
