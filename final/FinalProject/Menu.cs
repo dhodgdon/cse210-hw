@@ -63,7 +63,7 @@ public class Menu
 
         Console.Write("What is the name of the exercise? ");
         string name = Console.ReadLine();
-        Console.Write("Please type a brief of description of this exercise: ");
+        Console.Write("Please type a brief description of this exercise: ");
         string description = Console.ReadLine();
         Console.Write("Which muscle group is this exercise for? ");
         string muscleGroup = Console.ReadLine();

@@ -1,4 +1,0 @@
-Leg day+it hurts+CardioExercise|flkjsdf|slkjdfjf|legs|0|45=WeightedExercise|fasd;flkjf|slkdjf|legs|45|0|5|3
-trickshot+hot dog+WeightedExercise|qwerty|ytrewq|all of them|25|0|3|5=CardioExercise|flkjsdf|slkjdfjf|legs|0|24=WeightedExercise|squat|don't let knees go past feet|legs|35|0|2|1=CardioExercise|lkj|lkj|lkj|0|45=CardioExercise|j|jj|j|0|54=CardioExercise|hand|chop|arm|0|45
-hullabaloo+nothin much+CardioExercise|hand|chop|arm|0|66=WeightedExercise|qwerty|ytrewq|all of them|54|0|4|3
-frankenstein+undead+CardioExercise|hand|chop|arm|0|66=WeightedExercise|qwerty|ytrewq|all of them|75|0|3|2

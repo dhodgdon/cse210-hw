@@ -6,9 +6,9 @@ public class FileAccess
 
     public FileAccess(string username)
     {
-        _userFile = $"{username}.txt";
-        _exerciseFile = $"{username}Exercises.txt";
-        _routineFile = $"{username}Routines.txt";
+        _userFile = $"./{username}.txt";
+        _exerciseFile = $"./{username}Exercises.txt";
+        _routineFile = $"./{username}Routines.txt";
     }
 
     public void LoadAll(User user)
